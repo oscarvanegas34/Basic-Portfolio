@@ -1,3 +1,7 @@
+/* THE SECTION BELOW APPLY STYLING TO: INDEX, PORTFOLIO & CONTACT*/
+
+/* THIS SECTION CONTAIN ALL THE ELEMENT FOR THE 3 HTML */
+
 body {
     background: url('../images/diagonal-squares.png') repeat;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -21,7 +25,6 @@ header {
     position: fixed;
     left: 0;
 }
-
 
 header h1 {
     background: #4aaaa5;
@@ -84,12 +87,6 @@ form button {
     font-weight: bold;
 }
 
-img {
-    float: left;
-    margin: 0 15px 15px 0;
-    border: 1px solid #4aaaa5;
-}
-
 footer {
     background: #666666;
     border-top: 5px solid #4aaaa5;
@@ -101,6 +98,8 @@ footer {
     bottom: 0;
     left: 0;
 }
+
+/* THIS SECTION CONTAIN ALL THE CLASSES FOR THE 3 HTML */
 
 .clearfix {
     display: block;
@@ -126,7 +125,6 @@ footer {
 .content-portfolio {
     width: 905px;
     font-size: 24px;    
-    /* padding: 25px 0 0 0; */
     border-bottom: 2px solid #dddddd;
     
 }
@@ -134,8 +132,6 @@ footer {
 .content-contact {
     width: 905px    
 }
-
-
 
 .portfolio-item {
     position: relative;
@@ -161,6 +157,8 @@ footer {
     position: absolute;
     bottom: 15px;
 }
+
+/* THIS SECTION CONTAIN ALL ID'S FOR THE 3 HTML */
 
 #port1 {
     background: url('../images/hangman.jpg');
