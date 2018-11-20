@@ -120,11 +120,18 @@ footer {
     margin-top: 120px;
 }
 
+
 .content h2 {
     font-size: 24px;
     padding: 25px 0 0 0;
     margin-bottom: 20px;
     border-bottom: 2px solid #dddddd;
+}
+
+.inline-img {
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 2px solid #777777;
 }
 
 .content-portfolio {
